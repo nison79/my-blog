@@ -27,7 +27,8 @@ const StyledMainCardName = styled.div`
   display: inline-block;
   cursor: pointer;
   h2 {
-    padding: 0.2rem 0.4rem;
+    font-size:2rem;
+    padding: 0.5rem 0.4rem;
   }
 `
 

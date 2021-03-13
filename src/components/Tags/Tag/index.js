@@ -34,7 +34,7 @@ const StyledTagVertical = styled.div`
   padding: 0.07rem 0;
   margin: 0.6rem 0;
   padding-left: 0.5rem;
-  border-left-width: 3px;
+  border-left-width: 2px;
   border-left-style: solid;
   border-left-color: ${props =>
     props.selected ? `${theme.mintColor}` : "transparent"};

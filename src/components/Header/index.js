@@ -33,7 +33,7 @@ const Header = ({ siteTitle, showTitle, isPostTemplate }) => {
       {isPostTemplate && config.useScrollIndicator && <ProgressBar />}
 
       <StyledMainHeaderInner className="main-header-inner">
-        <h1 style={{ fontSize: "1.5rem" }}>
+        <h1 style={{ fontSize: "2rem" }}>
           {showTitle && <Link to="/">{`${siteTitle}`}</Link>}
         </h1>
         <StyledMediaIcons>
@@ -103,9 +103,9 @@ export default withTheme(Header)
 
 const StyledMainHeader = styled.header`
   font-family: ${configStyles.fontMain + configStyles.fontsBackUp};
-  height: 55px;
+  height: 58px;
   margin-top: ${config.useScrollIndicator ? "-5px" : "0"};
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 `
 
 const StyledMainHeaderInner = styled.div`

@@ -37,7 +37,7 @@ const StyledProfileTexts = styled.div`
   padding: 1rem;
   h4 {
     margin: 0.3rem 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   p {
     margin: 0.5rem 0;

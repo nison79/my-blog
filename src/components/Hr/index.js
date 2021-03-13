@@ -19,7 +19,7 @@ export default Hr
 
 const StyledHr = styled.hr`
   display: block;
-  height: 1;
+  height: ;
   border: 0;
   border-top: 1px;
   border-top-style: solid;
